@@ -5,7 +5,7 @@
   padding: 0;
 }
 body{
-  background: rgb(236, 197, 197);
+  background: rgb(253, 221, 221);
 }
 .nav{
   margin-top: 3%;
@@ -55,6 +55,22 @@ body{
   width: 90%;
   background: white;
   border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.19)0px 10px 20px, rgba(0, 0, 0, 0.23)0px, 6px 6px;
+}
+.belowBanner{
+  display: flex;
+  row-gap: 20%;
+  flex-wrap: wrap;
+  margin-top: 10%;
+  justify-content: space-around;
+  
+}
+.card{
+  margin-top: 5%;
+  background: white;
+  height: 300px;
+  width: 40%;
+  border-radius: 20px;
 }
 
 
@@ -67,6 +83,14 @@ body{
 #discount:hover{
   -webkit-text-fill-color: #000;
   transform: translateY(-10px);
+}
+.main-discounts{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.main-discounts div{
+  margin-top: 5%;
 }
 
 #collection{
