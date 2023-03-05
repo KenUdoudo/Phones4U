@@ -4,6 +4,16 @@
   margin: 0;
   padding: 0;
 }
+.nav{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: end;
+}
+.nav img{
+  width: 5%;
+}
+
 .topsection h2{
   cursor: pointer;
 }
