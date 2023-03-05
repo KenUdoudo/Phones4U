@@ -5,22 +5,33 @@
   padding: 0;
 }
 .nav{
+  margin-top: 3%;
   display: flex;
   flex-direction: row;
   width: 100%;
-  align-items: end;
 }
 .nav img{
   width: 5%;
 }
+#cart{
+  margin-left: 80%;
+}
 
+
+.topsection{
+  margin: 5% 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 98%;
+}
 .topsection h2{
   cursor: pointer;
 }
 
 
 #featured{
-  font-size: 75px;
+  font-size: 30px;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 2px #000;
   transition: transform 0.5s;
@@ -31,7 +42,7 @@
 }
 
 #discount{
-  font-size: 75px;
+  font-size: 30px;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 2px #000;
   transition: transform 0.5s;
@@ -42,7 +53,7 @@
 }
 
 #collection{
-  font-size: 75px;
+  font-size: 30px;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 2px #000;
   transition: transform 0.5s;
