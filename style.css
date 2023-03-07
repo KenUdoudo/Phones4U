@@ -138,6 +138,10 @@ body{
   border-radius: 20px;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2), 0px 6px 6px rgba(0, 0, 0, 0.2); 
 }
+.saleCard:hover{
+  background: rgb(156, 65, 156);
+  color: white;
+}
 .saleCard img{
   width: 98%;
 }
