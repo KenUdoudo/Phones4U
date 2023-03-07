@@ -22,7 +22,9 @@ body{
 #cart{
   margin-left: 80%;
 }
-
+#menu{
+  margin-left: 3%;
+}
 
 .topsection{
   margin: 5% 1%;
@@ -144,4 +146,13 @@ body{
 }
 .saleCard img{
   width: 98%;
+}
+@media screen and (max-width: 425px) {
+  
+}
+@media screen and (max-width: 375px) {
+
+}
+@media screen and (max-width: 320px) {
+  
 }
