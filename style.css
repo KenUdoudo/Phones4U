@@ -170,8 +170,58 @@ body{
   }
 }
 @media screen and (max-width: 375px) {
-
+  #discount{
+    font-size: 24px;
+  }
+  #news{
+    font-size: 24px;
+  }
+  #collection{
+    font-size: 24px;
+  }
+  .belowBanner{
+    row-gap: 10%;
+  }
+  .card{
+    height: 260px;
+    width: 45%;
+  }
+  .saleCard{
+    height: 240px;
+    width: 45%;
+  }
+  .banner{
+    height: 210px;
+  }
+  .nav img{
+    width: 7%;
+  }
+  #cart{
+    margin-left: 75%;
+  }
 }
 @media screen and (max-width: 320px) {
-  
+  #discount{
+    font-size: 20px;
+  }
+  #news{
+    font-size: 20px;
+  }
+  #collection{
+    font-size: 20px;
+  }
+  .belowBanner{
+    row-gap: 10%;
+  }
+  .card{
+    height: 240px;
+    width: 45%;
+  }
+  .saleCard{
+    height: 220px;
+    width: 45%;
+  }
+  .banner{
+    height: 190px;
+  }
 }
