@@ -130,7 +130,7 @@ body{
 .saleCard{
   display: flex;
   flex-direction: column;
-  padding: 0 1%;
+  padding: 2% 1%;
   margin-top: 5%;
   background: white;
   height: 290px;
