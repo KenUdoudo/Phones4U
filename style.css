@@ -148,7 +148,26 @@ body{
   width: 98%;
 }
 @media screen and (max-width: 425px) {
-  
+  #discount{
+    font-size: 28px;
+  }
+  #news{
+    font-size: 28px;
+  }
+  #collection{
+    font-size: 28px;
+  }
+  .belowBanner{
+    row-gap: 10%;
+  }
+  .card{
+    height: 280px;
+    width: 45%;
+  }
+  .saleCard{
+    height: 270px;
+    width: 45%;
+  }
 }
 @media screen and (max-width: 375px) {
 
